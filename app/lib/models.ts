@@ -33,7 +33,14 @@ export const MODELS: ModelOption[] = [
   {
     value: 'google/gemini-3.1-flash-image-preview',
     label: 'Gemini 3 Flash Image',
-    hint: 'Nano Banana 2 · fast · default',
+    hint: 'Nano Banana 2 · fast',
+    maxAttempts: 3,
+    approxSecondsPerCall: 18,
+  },
+  {
+    value: 'google/gemini-3.1-flash-lite-image',
+    label: 'Gemini 3 Flash Lite Image',
+    hint: 'Nano Banana 2 Lite · fast · default',
     maxAttempts: 3,
     approxSecondsPerCall: 18,
   },
@@ -47,7 +54,7 @@ export const MODELS: ModelOption[] = [
 ]
 
 
-export const DEFAULT_MODEL = 'google/gemini-3.1-flash-image-preview'
+export const DEFAULT_MODEL = 'google/gemini-3.1-flash-lite-image'
 
 export function getModelConfig(value: string): ModelOption {
   return (

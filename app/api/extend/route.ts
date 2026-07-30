@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 // Default model when the client doesn't specify one.
-const DEFAULT_MODEL = 'google/gemini-3.1-flash-image-preview'
+const DEFAULT_MODEL = 'google/gemini-3.1-flash-lite-image'
 
 /**
  * Walk an arbitrary OpenAI/OpenRouter response shape and pull out the first

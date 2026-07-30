@@ -407,7 +407,7 @@ Optional custom prompt and art style live in the bottom command bar.
   ([app/utils/imageProcessor.ts](app/utils/imageProcessor.ts))
 - **[JSZip](https://stuk.github.io/jszip/)** for in-browser project bundling
 - **[OpenRouter](https://openrouter.ai)** for model access
-  - Image: `google/gemini-3.1-flash-image-preview` (Nano Banana 2, default),
+  - Image: `google/gemini-3.1-flash-lite-image` (Nano Banana 2, default),
     `google/gemini-3-pro-image-preview` (Nano Banana Pro),
     `google/gemini-2.5-flash-image` (Nano Banana), and
     `openai/gpt-5.4-image-2` (GPT-5.4 Image 2 — high fidelity, slower)

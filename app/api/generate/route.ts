@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-const DEFAULT_MODEL = 'google/gemini-3.1-flash-image-preview'
+const DEFAULT_MODEL = 'google/gemini-3.1-flash-lite-image'
 
 const SUPPORTED_IMAGE_ASPECT_RATIOS = [
   '1:1',
